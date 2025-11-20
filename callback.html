@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head><title>Callback Spotify</title></head>
+<body>
+  <h1>Code reçu :</h1>
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const code = params.get("code");
+    document.write("<p>" + code + "</p>");
+  </script>
+</body>
+</html>
